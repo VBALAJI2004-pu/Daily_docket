@@ -10,7 +10,6 @@
 </head>
 <body data-role="admin">
     <div class="wrapper">
-        <!-- Sidebar -->
         <nav class="sidebar">
             <div class="sidebar-header">
                 <a href="index.html" class="sidebar-brand">
@@ -64,9 +63,7 @@
             </div>
         </nav>
 
-        <!-- Main Content -->
         <div class="main-content">
-            <!-- Header -->
             <div class="header">
                 <h1>Admin Dashboard</h1>
                 <div class="user-info">
@@ -78,7 +75,6 @@
                 </div>
             </div>
 
-            <!-- Date Range Picker -->
             <div class="date-range">
                 <label>Date Range:</label>
                 <input type="date" id="start-date">
@@ -87,7 +83,6 @@
                 <button class="btn btn-primary" onclick="updateDashboard()">Apply</button>
             </div>
 
-            <!-- Summary Cards -->
             <div class="cards-container">
                 <!-- In Hand Card -->
                 <div class="card">
@@ -99,8 +94,6 @@
                     </div>
                     <div class="card-value" id="in-hand-value">₹23,548</div>
                 </div>
-
-                <!-- Total Sale Card -->
                 <div class="card">
                     <div class="card-header">
                         <div class="card-title">Total Sale</div>
@@ -110,8 +103,6 @@
                     </div>
                     <div class="card-value" id="total-sale-value">₹2,48,629</div>
                 </div>
-
-                <!-- Total Expense Card -->
                 <div class="card">
                     <div class="card-header">
                         <div class="card-title">Total Expense</div>
@@ -122,7 +113,6 @@
                     <div class="card-value" id="total-expense-value">₹2,25,081</div>
                 </div>
 
-                <!-- Total Loans Card -->
                 <div class="card">
                     <div class="card-header">
                         <div class="card-title">Total Loans & Interest</div>
@@ -133,8 +123,6 @@
                     <div class="card-value" id="total-loans-value">₹0</div>
                 </div>
             </div>
-
-            <!-- Sale Report -->
             <div class="report-container">
                 <div class="report-header">
                     <div class="report-title">Sale Report</div>
@@ -144,7 +132,6 @@
                 </div>
             </div>
 
-            <!-- Daily Sales & Orders -->
             <div class="report-container">
                 <div class="report-header">
                     <div class="report-title">DAILY SALES & ORDERS - Total: ₹2,48,629</div>
@@ -216,8 +203,6 @@
                     </table>
                 </div>
             </div>
-
-            <!-- User Management (Admin-specific) -->
             <div class="report-container">
                 <div class="report-header">
                     <div class="report-title">User Management</div>
@@ -273,7 +258,6 @@
         </div>
     </div>
 
-    <!-- Mobile Toggle Button -->
     <button class="sidebar-toggle">
         <i class="fas fa-bars"></i>
     </button>
